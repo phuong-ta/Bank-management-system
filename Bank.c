@@ -1,6 +1,18 @@
 #include <stdio.h>
 
 int main(){
+
+    struct Bank{
+    char name[60];
+    int acc_no,age;
+    char address[60];
+    char citizenship[15];
+    double phone;
+    char acc_type[10];
+    float amt;
+    };
+    
+
     int choice;
     printf("\t Wellcome to PP Bank\n");
     printf("1. create new account\n");
